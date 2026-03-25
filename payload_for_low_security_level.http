@@ -1,0 +1,15 @@
+POST /DVWA/vulnerabilities/javascript/ HTTP/1.1
+Host: 192.168.56.105
+Content-Length: 66
+Cache-Control: max-age=0
+Accept-Language: en-US,en;q=0.9
+Origin: http://192.168.56.105
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.56.105/DVWA/vulnerabilities/javascript/
+Accept-Encoding: gzip, deflate, br
+Cookie: PHPSESSID=23e0bf728468a6e8b9c90f947929bf0d; security=low Connection: keep-alive
+
+token=38581812b435834ebf84ebcc2c6424d6&phrase=success&send=Submit

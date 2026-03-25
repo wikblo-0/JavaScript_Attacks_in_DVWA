@@ -33,6 +33,7 @@ TOKEN=$(echo -n "$ROT13" | md5sum | awk '{print $1}')
 #sends request and saves result in local file
 {
 echo "Current security level: $SECURITY"
+echo "Token value: $TOKEN"
 echo "Attempting to submit the word $PHRASE..."
 
 RESPONSE=$(curl -s -X POST \

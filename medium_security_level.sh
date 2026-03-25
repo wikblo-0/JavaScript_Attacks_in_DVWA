@@ -29,6 +29,7 @@ TOKEN=$(echo "XX${PHRASE}XX" | rev) #token to be submitted
 #sends request and saves result in local file
 {
 echo "Current security level: $SECURITY"
+echo "Token value: $TOKEN"
 echo "Attempting to submit the word $PHRASE..."
 
 RESPONSE=$(curl -s -X POST \

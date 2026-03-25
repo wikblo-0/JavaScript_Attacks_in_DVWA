@@ -37,7 +37,7 @@ echo "Attempting to submit the word $PHRASE..."
 
 RESPONSE=$(curl -s -X POST \
  -b "PHPSESSID=$PHPSESSID; security=$SECURITY" \
- -d "phrase=$PHRASE&token=$TOKEN&submit=Submit" \
+ -d "phrase=$PHRASE&token=$TOKEN&send=Submit" \
 http://192.168.56.105/DVWA/vulnerabilities/javascript/)
 
 if echo "$RESPONSE" | grep -q "Well done!"; then
